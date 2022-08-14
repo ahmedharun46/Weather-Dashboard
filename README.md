@@ -6,8 +6,10 @@ What was my goal: :To apply Jquery,HTMl,API,CSS, Bootstrap and Javascript elemen
 
 What I learned: Getting better with Jquery elements and how to use them. Using bootstrap for css and HTML purposes. How to naviagate and use APIs to display information 
 
-Git Hub Link: https://github.com/ahmedharun46/Work-Day-Scheduler-
+Note: UV index not required told by Class Teacher!!!
 
-Url Link: https://ahmedharun46.github.io/Work-Day-Scheduler-/
+Git Hub Link: 
+
+Url Link: 
 
 SreenShot
