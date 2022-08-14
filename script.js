@@ -49,6 +49,7 @@ function displayCurrentWeather(city, date, temp, humidity, windSpeed, weatherIco
     cardDiv.append(windSpeedEl);
     $("#current-weather-conditions").append(cardDiv);
 }
+
 //for loop for 5 day forecast
 function displayFiveDayForecast(forecast) {
     for (let i=3; i < forecast.length; i+=8) {
@@ -79,6 +80,7 @@ function displayFiveDayForecast(forecast) {
         $(".card-deck").append(cardEl);
     }
 }
+
 // To clear html of current searched city data to make way for next searched city data
 function clearDisplayedWeatherInfo() {
     $("#current-weather-conditions").empty();
