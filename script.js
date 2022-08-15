@@ -21,7 +21,7 @@ $("#search-btn").on("click", () => {
     $("#search-input").val("");
     searchCity(cityName);
 
-    if (cityName && listOfSearchedCities !== cityName) {
+  
         listOfSearchedCities.unshift(cityName);
         localStorage.setItem("searched-cities", JSON.stringify(listOfSearchedCities));
 
@@ -29,7 +29,7 @@ $("#search-btn").on("click", () => {
     <li>${cityName}</li>
     </a>`);
     }
-});
+);
 
 $(document).on("click", ".list-group-item", (e) => {
     clearDisplayedWeatherInfo();
