@@ -21,7 +21,7 @@ $("#search-btn").on("click", () => {
     $("#search-input").val("");
     searchCity(cityName);
 
-    if (cityName && listOfSearchedCities[0] !== cityName) {
+    if (cityName && listOfSearchedCities !== cityName) {
         listOfSearchedCities.unshift(cityName);
         localStorage.setItem("searched-cities", JSON.stringify(listOfSearchedCities));
 
