@@ -21,7 +21,7 @@ $("#search-btn").on("click", () => {
     $("#search-input").val("");
     searchCity(cityName);
 
-  
+  console.log(listOfSearchedCities)
         listOfSearchedCities.unshift(cityName);
         localStorage.setItem("searched-cities", JSON.stringify(listOfSearchedCities));
 
