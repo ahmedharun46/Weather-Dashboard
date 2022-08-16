@@ -8,8 +8,12 @@ What I learned: Getting better with Jquery elements and how to use them. Using b
 
 Note: UV index not required told by Class Teacher!!!
 
-Git Hub Link: 
+Git Hub Link: https://github.com/ahmedharun46/Weather-Dashboard
 
-Url Link: 
+Url Link: https://ahmedharun46.github.io/Weather-Dashboard/
+
 
 SreenShot
+
+
+![Screen Shot 2022-08-15 at 8 13 37 PM](https://user-images.githubusercontent.com/106023206/184774763-db9821ab-728d-4813-8c5f-13a7a47ccc35.png)
