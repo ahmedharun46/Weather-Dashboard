@@ -1,6 +1,6 @@
 var APIKey = "29f3c58f144182999550f4a430669b7d"
 let listOfSearchedCities = [];
-let searchedCities = JSON.parse(localStorage.getItem("searched-cities"));
+let searchedCities = JSON.parse(localStorage.getItem("searched-cities")) || [];
 
 // if there are searched cities, uppercase each searched city for cleanliness
 
